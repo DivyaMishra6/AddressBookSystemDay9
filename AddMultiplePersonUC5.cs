@@ -8,7 +8,7 @@ namespace AddressBookSystem
 {
     public class AddMultiplePersonUC5
     {
-         public string firstName;
+        public string firstName;
         public string lastName;
         public string mobileNumber;
         public string address;
@@ -17,6 +17,7 @@ namespace AddressBookSystem
         public string zip;
         public string email;
 
+        //User Information
         public override string ToString()
         {
             return $"Name: {firstName} {lastName}\nMobile Number: {mobileNumber}\nAddress: {address}\nCity: {city}\nState: {state}\nZip: {zip}\nEmail: {email}\n";
